@@ -1,5 +1,23 @@
-@import "colors";
+@import "./bootstrap/customizations";
+@import "./colors";
+
+body{
+    background: url(../img/topography.png);
+    background-repeat: repeat;
+}
 
 #header{
-    color: $primaryColor;
+    color: red;
+}
+
+img {
+    width: 300px;
+}
+.content-header {
+    width: 100%;
+    height: 100%;
+    color: red;
+    text-transform: uppercase;
+    font-size: 24px;
+    letter-spacing: 20px;
 }

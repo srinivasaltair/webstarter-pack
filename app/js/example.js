@@ -1,7 +1,7 @@
-import $ from 'jquery'
+import $ from 'jquery';
 
 var getStyles = function(){
-    console.log('Styles');
+    $('#header').css('color', 'blue');
 }
 
 module.exports = { getStyles }
