@@ -17,8 +17,6 @@ const cssProd = ExtractTextPlugin.extract({
     use: ['css-loader?url=false', 'resolve-url-loader', 'sass-loader?sourceMap']
 })
 
-const SRC_PATH = path.resolve('./img');
-
 const cssConfig = isProd ? cssProd : cssDev;
 
 const bootstrapConfig = isProd ? bootstrapEntryPoints.prod : bootstrapEntryPoints.dev;
